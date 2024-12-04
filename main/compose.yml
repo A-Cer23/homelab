@@ -1,0 +1,7 @@
+services:
+ nginx:
+  image: nginx:latest
+  ports: 
+   - "55501:80"
+  volumes:
+   - ./index.html:/usr/share/nginx/html/index.html
