@@ -1,0 +1,9 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: Gateway
+    ports:
+     - "55501:55501"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    working_dir: /etc/nginx
