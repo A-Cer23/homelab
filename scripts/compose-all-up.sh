@@ -15,7 +15,7 @@ for dir in "${directories[@]}"; do
     cd "$dir" || { echo "Failed to change to directory $dir"; continue; }
     
     # Run docker-compose up -d
-    if docker-compose up -d; then
+    if docker compose up -d; then
       echo "Successfully started services in $dir"
     else
       echo "Failed to start services in $dir"
