@@ -1,0 +1,8 @@
+[Unit]
+Description=Run compose all up shell script for webserver
+
+[Service]
+ExecStart=~/homelab/scripts/bash/compose-all-up.sh
+
+[Install]
+WantedBy=multi.user.target

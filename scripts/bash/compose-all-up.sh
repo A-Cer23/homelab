@@ -2,10 +2,10 @@
 
 # List of directories containing docker-compose.yml files
 directories=(
-  "/home/mongy/homelab/web-gateway"
-  "/home/mongy/homelab/main"
-  "/home/mongy/homelab/example1"
-  "/home/mongy/homelab/example2"
+  "~/homelab/web-gateway"
+  "~/homelab/web-gateway/main"
+  "~/homelab/web-gateway/example2"
+  "~/homelab/web-gateway/example1"
 )
 
 for dir in "${directories[@]}"; do
