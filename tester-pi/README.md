@@ -4,9 +4,9 @@ I want to run jellyfin using the NAS as file sources
 
 
 requirements
-- radarr: for movies
-- sonarr: for tv
-- bittorrent client (headless is required)
+- [] radarr: for movies
+- [] sonarr: for tv
+- [x] bittorrent client (headless is required)
 
 
 resources:
