@@ -18,8 +18,6 @@ services:
       - 6881:6881/udp
     restart: unless-stopped
 
-
-
   flaresolverr:
     image: ghcr.io/flaresolverr/flaresolverr:latest
     container_name: flaresolverr
@@ -44,7 +42,6 @@ services:
     ports:
       - 9696:9696
     restart: unless-stopped
-
 
   radarr:
     image: lscr.io/linuxserver/radarr:latest
